@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+  background:#222222
+}
+
+
+.home {
+    background: #222222;
+    height: 110vh;
+}
+
+.frontpic {
+    
+   height: 100vh;
+   width: 107vh;
+   background: #cccc;
+}
+.menu {
+   height: 100vh;
+   width: 9rem;
+   background:black
+}
+/*social media*/
+.icon{
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.icon_group{
+  margin-top: 4rem;
+}
+
+
+.home_content{
+  margin-left: 4rem;
+
+}
+
+.Branding {
+    font-size: 3rem;
+    font-family: "Philosopher";
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding-top: 12rem;
+    z-index: 2;
+  }
+  .home_text {
+    color: rgb(255, 255, 255); 
+    padding-top: 3rem;
+    letter-spacing: 1px;
+  }
+  .btn {
+    background-image: linear-gradient(to bottom, #2c37bb, #4134c9, #552fd5, #6b26e1, #8112eb);
+    color: white;
+    width: 8rem;
+    height: 2.8rem;
+  }
+  .home_circle {
+    z-index: 1;
+    width: 49vh;
+    margin-left: 18vh;
+    margin-top: 5vh;
+    position: absolute;
+    float: left;
+  }
+  .home_dot {
+    position: absolute;
+    margin-left: 24rem;
+    width: 4rem;
+    padding-top: 3.6rem;
+  }
+  .star_logo{
+   margin-top: 3rem;
+   margin-left: 3rem;
+  }
+  .bg_star{
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .star {
+    z-index: 2;
+    position: absolute;
+    padding: .6rem;
+  }
+  .custlogo {
+    padding: 3.5rem;
+  }
+  /* The sidepanel menu */
+.sidepanel {
+  height: 40rem; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 2rem;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+.second_section{
+  background: #222222;
+  height: 55vh
+}
+.big_dots{
+  z-index: 3;
+  width: 28vh;
+  position: absolute;
+  margin-left: 113vh;
+  margin-top: -32vh;
+}
+.icon_image{
+margin-left: 8rem;
+margin-top: 4rem;
+}
+.card_col{
+  margin-left: 2rem;
+  border-radius: 1rem; 
+  flex-direction: column;
+  display: flex;
+}
+.group_card{
+  
+  margin-left: 17rem;
+ padding-top: 4rem;
+}
+.card-text{
+  font-size: small;
+}
+.about_section{
+  background: #222222;
+  height: 80vh;
+}
+.about_us{
+  
+  padding-top: 5rem;
+  margin-left: 19rem;
+  width: 30%;
+  float: left;
+  
+}
+.about_head{
+  font-family: "Philosopher";
+  font-size: 2rem;
+  font:bold;
+  background: linear-gradient(to bottom, #2c37bb, #4134c9, #552fd5, #6b26e1, #8112eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.about_headtext{
+  font-family:"Philosopher" ;
+  color: white;
+  letter-spacing: 1px;
+}
+.about_para{
+  color: white;
+}
+.about_para2{
+  color:white;
+  font-size: small;
+}
+.round_fig{
+  margin: 10rem;
+  width: 15rem;
+  margin-top: 16rem;
+  margin-left: 18rem;
+  position: absolute;
+  z-index: 0;
+}
+.pic_large{
+  width: 24rem;
+  height: 24rem;
+  background: #cccc;
+  z-index: 1;
+  margin-left: 53rem;
+  margin-top: 3rem;
+  position: absolute;
+}
+.pic_small{
+  width: 18rem;
+  height: 18rem;
+  background: rgb(185, 185, 185);
+  z-index: 2;
+  margin-left:45rem;
+  margin-top: 15rem;
+  position: absolute;
+}
+.portfolio{
+  background: #222222;
+  height: 140vh;
+}
+.port{
+  padding-top: 3rem;
+  margin-left: 19rem;
+}
+.port_headtext{
+  color: white;
+  font-family: "Philosopher";
+  letter-spacing: 1px;
+  width: 20rem;
+  float: left;
+}
+.nav-link{
+  color: white;
+  margin-left: 2rem;
+}
+.navbar-nav{
+  margin-top: 4rem;
+}
+.rect_group{
+  padding-top: 2.5rem;
+  width: 100%;
+}
+.rect_large{
+  width: 25rem;
+  height: 15rem;
+  background: white;
+  float: left;
+  border-radius: 5px;
+}
+.rect_roat{
+  width: 34rem;
+  height: 30rem;
+  background:linear-gradient(to right bottom, #3639de, #5339e3, #6a38e7, #7f36eb, #9234ef);;
+  float:left;
+  margin-left: 1rem;;
+  border-radius: 5px;
+  padding: 2rem;
+  color: white;
+  font-family: "Philosopher";
+
+}
+.rect_roata{
+  width: 25rem;
+  height: 30rem;
+  background: white;
+  margin-top: 16rem;
+  position: absolute;
+  border-radius: 5px;
+  
+}
+.rect_larger{
+  width: 34rem;
+  height: 15rem;
+  background: white;
+  position: absolute;
+  margin-left: 26rem;
+  margin-top: 31rem;
+  border-radius: 5px;
+}
+.interm{
+  background: #222222;
+}
+.start_button{
+  background:#222222 ;
+}
+.specialize{
+  background: #222222;
+  padding-left: 12rem;
+  padding-top: 5rem;
+  width: 100%;
+  height: 5rem;
+}
+.special{
+  font-family: "Philosopher serif";
+  font-size: 50px;
+  font-weight:bold;
+  background: linear-gradient(13deg, rgba(2,0,36,1) 0%, rgba(114,40,173,1) 40%, rgba(0,212,255,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  float: left;
+  margin-left: 6rem;
+}
+.text_specialize{
+  margin-left: 12rem;
+}
+.text_special{
+float: left;
+margin-left: 4rem;
+font-size: small;
+}
+.brands{
+  background: #222222;
+}
+.brand_head{
+  font-size: 35px;
+  font-family: "Philosopher";
+  padding-top: 5rem;
+  font-weight: bold;
+}
+.card_group{
+  background: #222222;
+  height: 18rem;
+  padding-top: 3rem;
+  margin-left:2.5rem ;
+  
+}
+.card_img_top{
+  background: black;
+  width: 10rem;
+}
+.card_b{
+  align-items: center;
+  padding-top: 3.5em;
+  border-radius: 12px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+.reviews{
+  background: #222222;
+  height: 90vh;
+  
+}
+.review_head{
+  font-family: "Philosopher";
+  font-weight: bold;
+}
+.review_text{
+  color: white;
+  font-family: "Philosopher";
+  font-size: 50px;
+  
+}
+.review_card{
+  padding-left: 16rem;
+}
+.re_card{
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.footer{
+  background: black;
+  height: 65vh;
+}
+.lower_about_text{
+  font-size: small;
+  font-family: "Philosopher";
+  color: white;
+  padding-top: 1rem;
+}
+.lower_about{
+  font-family: "Philosopher";
+  color: white;
+  padding-top: 4rem;
+  font-size: 18px;
+}
+.btn_bot{
+  background-image: linear-gradient(to bottom, #2c37bb, #4134c9, #552fd5, #6b26e1, #8112eb);
+  color: white;
+  width: 8rem;
+  height: 2.4rem;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.ut_venenatis{
+  font-size: small;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.lorem{
+  font-size: x-small;
+  color: white;
+  padding-left: 1rem;
+}
+#email{
+  width: 8rem;
+  margin-right: .4rem;
+}
+.name_cus{
+  color: white;
+}
+.img_cus{
+  padding-top: 1rem
+}
+.icon_bot{
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+}
+.copyright_text{
+  color:white;
+
+}
+.plus_but{
+  margin: 1rem;
+  margin: 20rem;
+  margin-left: 29rem;
+}
